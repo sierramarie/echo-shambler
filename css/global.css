@@ -2,12 +2,14 @@
 img { width: 100%; }
 
 body {
-  background: url(../img/seigaiha.png);
+  background: url(../img/abstract2.jpg);
+  background-position: center;
 }
-.text-center {
+.row-one{
   font-family: 'Baloo', cursive;
-  font-size: 36px;
+  font-size: 48px;
   color: #008000;
+  text-align: center:
 }
 
 #logo {
@@ -27,7 +29,16 @@ body {
 }
 
 .panel-default>.panel-heading {
-  background: #3ECDB3;
+  background: #2f5e2f;
+  color: white;
+}
+.panel>.panel-body {
+  background: #000;
+  color: white;
+}
+.panel>.panel-footer {
+  background: #3f3f3f;
+  color: white; 
 }
 
 .list-group-item {
