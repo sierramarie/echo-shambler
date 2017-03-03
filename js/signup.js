@@ -5,11 +5,11 @@ if (location.href.includes('logout')) {
 }
 
 function signup() {
-    var name = document.querySelector('#name').value;
-    var password = document.querySelector('#password').value;
-    var phone = document.querySelector('#phone_number').value;
+    // var name = document.querySelector('#name').value;
+    // var password = document.querySelector('#password').value;
+    // var phone = document.querySelector('#phone_number').value;
 
-    // fetch('http://acc70ddc.ngrok.io/users', {
+    // // fetch('http://acc70ddc.ngrok.io/users', {
     //     method: 'POST',
     //     headers: {
     //         'Content-Type': 'application/json'
@@ -39,5 +39,6 @@ function signup() {
     //             console.log(response);
     //         }
     //     })
-        location.href = 'chirp.html';
+        location.href = "chirp.html";
+        console.log(location.href);
 }

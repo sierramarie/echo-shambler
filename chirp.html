@@ -8,37 +8,147 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/global.css" />
     <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <script src="https://use.fontawesome.com/bf7c42604e.js"></script>
 </head>
 <body>
+
+    
     <br /><br />
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
 
-                <div class="text-center">
-                    Welcome to your chamber.
-                    <br /><br />
-                </div>
-
-                
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4>Messages</h4>
+                    <div class="row-one">
+                        <h2>Welcome to your chamber.</h2>
+                        <br /><br />
                     </div>
-                    <div class="panel-body">
+                </div>
+                <div class="col-sm-3" id="side-icons">
+                    <span type="button" id="logout"><i class="fa fa-power-off fa-2x" aria-hidden="true"></i></span>
+                    <span type="button" id="envelope"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></span>
+                    <span type="button" id="eye"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></span>
+                    <span type="button" id="textBox"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></span> 
+                
+                </div>
+            </div>
+        </div>
+            
 
-                        <p><a href="users.html">Back</a></p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
 
-                        <ul class="list-group" id="messages">
-                            
+                <div class="card">
+                    <img src="http://unsplash.it/300?random"/>
+                    <div class="card-caption">
+                              <br/><br/>
+                     <span type="button" id="envelope"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i></span>
+                    <span type="button" id="eye"><i class="fa fa-eye fa-1x" aria-hidden="true"></i></span>
+                    <span type="button" id="textBox"><i class="fa fa-pencil-square-o fa-1x" aria-hidden="true"></i></span>
+                              <h4>  username. </h4>
+                    </div>
+                </div>
+                <br/>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4>Your Tracks</h4>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-unstyled" id="tracks">
+                                <li>who</li>
+                                <li>what</li>
+                                <li>when</li>
+                                <li>where</li>
+                                <li>why?</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            <br/>
+            <div class="col-sm-7">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading main">
+                        <h2 class="recent">Recent Grunts <span class="glyphicon glyphicon-alert"></span></h2>
+                    </div>
+                    <div class="panel-body main">
+
+                        <ul class="list-unstyled" id="main_grunts">
+                            <div class="row" id="list-row">
+                                <div class="col-sm-6" id="list-column-pictures">
+                                    <li> <img class="round" src="http://unsplash.it/300?random"/> </li>
+                                </div>
+                                <div class="col-sm-6" id="list-column-text">
+                                    <li>Users talking smack</li>
+                                </div>
+                            </div>
+                        </ul>
+                        <ul class="list-unstyled" id="main_grunts">
+                            <div class="row" id="list-row">
+                                <div class="col-sm-6" id="list-column-pictures">
+                                    <li> <img class="round" src="http://unsplash.it/300?random"/> </li>
+                                </div>
+                                <div class="col-sm-6" id="list-column-text">
+                                    <li>Users talking smack</li>
+                                </div>
+                            </div>
+                        </ul>
+                        <ul class="list-unstyled" id="main_grunts">
+                            <div class="row" id="list-row">
+                                <div class="col-sm-6" id="list-column-pictures">
+                                    <li> <img class="round" src="http://unsplash.it/300?random"/> </li>
+                                </div>
+                                <div class="col-sm-6" id="list-column-text">
+                                    <li>Users talking smack</li>
+                                </div>
+                            </div>
+                        </ul>
+                        <ul class="list-unstyled" id="main_grunts">
+                            <div class="row" id="list-row">
+                                <div class="col-sm-6" id="list-column-pictures">
+                                    <li> <img class="round" src="http://unsplash.it/300?random"/> </li>
+                                </div>
+                                <div class="col-sm-6" id="list-column-text">
+                                    <li>Users talking smack</li>
+                                </div>
+                            </div>
+                        </ul>
+                        <ul class="list-unstyled" id="main_grunts">
+                            <div class="row" id="list-row">
+                                <div class="col-sm-6" id="list-column-pictures">
+                                    <li> <img class="round" src="http://unsplash.it/300?random"/> </li>
+                                </div>
+                                <div class="col-sm-6" id="list-column-text">
+                                    <li>Users talking smack</li>
+                                </div>
+                            </div>
+                        </ul>
+                        <ul class="list-unstyled" id="main_grunts">
+                            <div class="row" id="list-row">
+                                <div class="col-sm-6" id="list-column-pictures">
+                                    <li> <img class="round" src="http://unsplash.it/300?random"/> </li>
+                                </div>
+                                <div class="col-sm-6" id="list-column-text">
+                                    <li>Users talking smack</li>
+                                </div>
+                            </div>
                         </ul>
 
+
+                          <!--<li>Users talking smack</li>
+                                    <li>Users talking smack</li>
+                                    <li>Users talking smack</li>
+                                    <li>Users talking smack</li>
+                                    <li>Users talking smack</li>
+                                    <li>Users talking smack</li>-->
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
+
+            
     
     <script src="js/global.js"></script>
     <script src="js/messages.js"></script>

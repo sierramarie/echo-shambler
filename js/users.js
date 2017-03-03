@@ -1,3 +1,4 @@
+// **********USE YOUR AJAX.JS FOR REFERENCE ************
 
 document.querySelector('#users').addEventListener('click', function(e) {
     var userListItem = e.target;

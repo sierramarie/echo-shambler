@@ -1,17 +1,30 @@
 * { box-sizing: border-box; }
-img { width: 100%; }
+img { 
+  width: 100%;
+ }
 
 body {
   background: url(../img/abstract2.jpg);
   background-position: center;
 }
-.row-one{
+h2 {
   font-family: 'Baloo', cursive;
   font-size: 48px;
   color: #008000;
-  text-align: center:
+  text-align: center;
 }
-
+.recent {
+  color: black;
+}
+.card img {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  height: 200px;
+}
+.container-fluid {
+  border: 1px solid black;
+}
 #logo {
   width: 150px;
   transition: all 0.3s ease;
@@ -24,23 +37,47 @@ body {
 .panel {
   opacity: 1;
   height: auto;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   transition: all 0.5s ease;
 }
 
 .panel-default>.panel-heading {
   background: #2f5e2f;
   color: white;
+  padding-top: 10px;
+  text-align: center;
 }
 .panel>.panel-body {
-  background: #000;
+  background: lightseagreen;
   color: white;
 }
 .panel>.panel-footer {
   background: #3f3f3f;
   color: white; 
 }
-
+.card {
+  background-color: lightcoral;
+  border: 1px solid black;
+  text-align: center;
+  min-height: 285px;
+}
+.column-img {
+  max-width: 200px;
+  max-width: 200px;
+  border-radius: 50%;
+  height: 200px;
+}
+.round {
+  border-radius: 50%;
+  max-width: 100px;
+  height: 1o0px;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+#list-column-text {
+  padding-top:10px;
+  padding-right: 20px;
+}
 .list-group-item {
   cursor: pointer;
 }
@@ -60,7 +97,50 @@ body {
 
 #logout:hover {
   transform: scale(2) rotate(360deg);
+  box-shadow: 50px 7px 0 65px rgba(183, 118, 82, 0.9) inset;
+  color: rgba(0, 0, 0, 1.0);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 1.0);
 }
+#textBox {
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#textBox:hover {
+  transform: scale(2) rotate(360deg);
+  box-shadow: 50px 7px 0 65px rgba(183, 118, 82, 0.9) inset;
+  color: rgba(0, 0, 0, 1.0);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 1.0);
+}
+#envelope {
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#envelope:hover {
+  transform: scale(2) rotate(360deg);
+  box-shadow: 50px 7px 0 65px rgba(183, 118, 82, 0.9) inset;
+  color: rgba(0, 0, 0, 1.0);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 1.0);
+}
+#eye {
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#eye:hover {
+  transform: scale(2) rotate(360deg);
+  box-shadow: 50px 7px 0 65px rgba(183, 118, 82, 0.9) inset;
+  color: rgba(0, 0, 0, 1.0);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 1.0);
+}
+
 
 .list-group-item {
   transition: all .5s ease;
